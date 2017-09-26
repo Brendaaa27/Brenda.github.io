@@ -1,0 +1,107 @@
+body{
+    background: #f5f5f5;
+}
+h2{
+    color: #212121;
+}
+span{
+    color: #2eca7f;
+}
+header{
+    background:  #2eca7f;
+    font-size: 20px;
+    line-height: 2.5em;
+    color: white;
+}
+header .name{
+    margin:40px;
+}
+.profile-card{
+    height: 600px;
+    margin:20px;
+    border-radius: 15px;
+    background:white;
+}
+.profile-card .profile-card-top{
+    background:#2eca7f;
+}
+.profile-card .profile-card-top{
+    border-radius: 15px 15px 0 0 ;
+    padding: 35px 40px 0 40px;
+    position: relative;
+    height: 45%;
+    text-align: center;
+}
+.profile-card .profile-card-top h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.profile-card .profile-card-top p{
+    color: white;
+    font-size: 22px;
+    margin-top: auto;
+}
+.social-media{
+    margin:0 auto;
+    position: relative;
+
+}
+.twitter {
+    position: relative;
+    height: 35px;
+    width: 35px
+}
+.facebook {
+    position: relative;
+    height: 35px;
+    width: 35px;
+}
+
+.profileimg-wrapper{
+    float:left;
+    margin:0 auto;
+    border-color: white;
+    border-width: 5px;
+    border-style: dotted;
+    margin-bottom: -10px;
+    z-index: 30;
+}
+
+.profile-card-bottom .right-right{
+    color: rgba(172, 172, 172, 0.96);
+}
+.clear{
+    clear: both;
+}
+
+
+.col-right{
+    float: left;
+    width: 50%;
+}
+.col-left {
+    float: left;
+    width: 50%;
+}
+.padding{
+    padding: 35px;
+}
+.shadow{
+    box-shadow:0 15px 25px 0 #888888
+}
+.right-right{
+    float: left;
+    width: 50%;
+}
+.right-left{
+    float: left;
+    width: 35%;
+}
+.overlay{
+    background:url("./image/main_bg.png") 100% 100%;
+    position: relative;
+    z-index:0;
+
+
+}
