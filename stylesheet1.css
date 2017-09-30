@@ -10,17 +10,22 @@ span{
 header{
     background:  #2eca7f;
     font-size: 20px;
-    line-height: 2.5em;
+    line-height: 1.5em;
     color: white;
+
 }
 header .name{
     margin:40px;
 }
+.container{
+    margin: 100px 0 0 0;
+}
 .profile-card{
-    height: 600px;
-    margin:20px;
+    height: 550px;
+    margin: 170px 40px;
     border-radius: 15px;
-    background:white;
+    background: white;
+
 }
 .profile-card .profile-card-top{
     background:#2eca7f;
@@ -60,7 +65,7 @@ header .name{
 
 .profileimg-wrapper{
     float:left;
-    margin:0 auto;
+    margin:0 30px;
     border-color: white;
     border-width: 5px;
     border-style: dotted;
