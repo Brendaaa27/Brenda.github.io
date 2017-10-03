@@ -5,10 +5,8 @@ window.onload = function(){
     var myName = "Yangjing Liu"
     console.log(myName)
 
-    function myFunction()
-    {
-        alert("Hello this is Brenda!");
-    }
+    alert("Hello this is Brenda!");
+
 
     document.getElementById("myName").onclick = function() {myFunction()};
     function myFunction() {
@@ -22,14 +20,44 @@ window.onload = function(){
     });
 
     $(document).ready(function() {
-        $(".profileimg-wrapper").mouseover(function () {
-            $(".profileimg-wrapper p").
-            });
+        $(".profileimg-wrapper").mouseover(
+            function(){
+                $(".web").show();
+            }
+        )
+        $(".profileimg-wrapper").mouseout(
+            function(){
+                $(".web").hide();
+            }
+        )
     });
+
+    //modal pop up
+    var modal = document.getElementsByClassName("modal");
+    var btn = document.getElementsByTagName("button");
+    btn.onclick = function(){
+        modal.style.display = "block";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+
+    /* // Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}  */
 
     }
 
 
 
 
-}
+
