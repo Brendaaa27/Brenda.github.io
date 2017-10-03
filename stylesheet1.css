@@ -22,7 +22,8 @@ header .name{
 }
 .profile-card{
     height: 550px;
-    margin: 170px 40px;
+    max-width:1032px;
+    margin: 0 auto;
     border-radius: 15px;
     background: white;
 
@@ -37,6 +38,32 @@ header .name{
     height: 45%;
     text-align: center;
 }
+
+
+.profileimg-wrapper{
+    position:relative;
+    float:left;
+    margin:0 0 0 50px;
+    border: solid 3px white;
+    /* margin-bottom: -10px; */
+    z-index: 30; //not in use now
+
+}
+.profile{
+    position:relative;
+    height:100%;
+    width: 100%;
+
+}
+
+.web{
+    position:relative;
+    margin:0 auto;
+    color:white;
+    font-size: 0.5em;
+
+}
+
 .profile-card .profile-card-top h1{
     color: white;
     font-size: 60px;
@@ -63,15 +90,6 @@ header .name{
     width: 35px;
 }
 
-.profileimg-wrapper{
-    float:left;
-    margin:0 30px;
-    border-color: white;
-    border-width: 5px;
-    border-style: dotted;
-    margin-bottom: -10px;
-    z-index: 30;
-}
 
 .profile-card-bottom .right-right{
     color: rgba(172, 172, 172, 0.96);
