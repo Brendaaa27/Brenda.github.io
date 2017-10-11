@@ -11,7 +11,9 @@
 <body>
 
     <header>
-        <div class="name">Bren</div>
+        <div class="name">Brenda
+            <span>Liu</span>
+        </div>
         <div class="nav"></div>
     </header>
     <section class="container">
@@ -26,7 +28,7 @@
             </div>
             <div class="col-right">
                 <div class="wrapper">
-                    <h1 id="myName">Bren</h1>
+                    <h1 id="myName">Brenda</h1>
                     <p>Freestyler</p>
                     <div class="social-media">
                         <img src="./image/twitter_logo_png.png" alt="twitter" class="twitter">
@@ -50,10 +52,15 @@
                     <p>Hello! I'm Bren.Bonjour, je m'appelle Bren. </p>
 
                 </div>
-                <button>Contact me</button>
-                <div class="modal">
+                <button id="myBtn">Contact me</button>
+                <div id="myModal" class="modal">
                     <div class="modal-content">
-
+                        <form action="/action_page.php">
+                            <input type="text" id="name" placeholder="Enter your name">
+                            <input type="text" id="email" placeholder="Enter email">
+                            <input type="text" id="message" placeholder="Leave message...">
+                            <input type="submit" id="send" value="Send">
+                        </form>
                     </div>
                 </div>
 
