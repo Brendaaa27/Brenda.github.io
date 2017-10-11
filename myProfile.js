@@ -33,31 +33,26 @@ window.onload = function(){
     });
 
     //modal pop up
-    var modal = document.getElementsByClassName("modal");
-    var btn = document.getElementsByTagName("button");
+    var amodal = document.getElementsById('myModal');
+    var btn = document.getElementsById("myBtn");
     btn.onclick = function(){
-        modal.style.display = "block";
-    }
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
+        myModal.style.display = "block";
     }
 
 
-    /* // Get the modal
+
+    }
+
+
+
+
+/* // Get the modal
 var modal = document.getElementById('id01');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+  if (event.target == modal) {
+      modal.style.display = "none";
+  }
 }  */
-
-    }
-
-
-
-
 
